@@ -1,11 +1,11 @@
 public class BmiService {
 
-    public double calculate(int a, int b) {
+    public double calculate(int massOfBody, int heightOfBody) {
 
         double result;
-        byte x = 2;
+        byte degree = 2;
 
-        result = a /(Math.pow(b,x)) * 10000;
+        result = massOfBody /(Math.pow(heightOfBody,degree)) * 10000;
         return result;
     }
 
